@@ -1,0 +1,48 @@
+.Box-item img{
+    margin-top: 0%;
+    width: 1500px;
+    height: 700px;
+}
+html{
+    background-color: rgb(42, 165, 147);
+}
+.Box-item .Boxes-items {
+    background-color: rgb(0, 191, 255);
+    width: 300px;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+  
+    
+}
+.Box-item .Boxes-items ul li{
+    text-decoration-line: none;
+   list-style: none;
+   display: inline-block;
+    
+}
+body{
+    display: flex;
+}
+.Box-item{
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    border: 3px;
+}
+.Boxes-items{
+    position: absolute;
+    bottom: 0;
+     right: 700px;
+    width: 200px;
+    height: 100px;
+    
+}
+.boxes1{
+    background-color: aqua;
+    width: 1500px;
+    height: 100px;
+     top: 0%;
+     text-align: center;
+      padding-top: 10px;
+}
